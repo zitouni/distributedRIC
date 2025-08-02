@@ -74,7 +74,7 @@ For detailed installation instructions, see the [Installation Guides](#installat
 
 ## Run Demo 
 
-For a comprehensive demonstration of the distributed RIC system, please refer to the [Scale Demo Guide](https://github.com/zitouni/flexric/blob/fbabe9cff920f4949aa456d05b4d6a5d196e028b/DEMO_Scale.md) which provides detailed instructions for running the complete end-to-end setup.
+For a comprehensive demonstration of the distributed RIC system, please refer to the [Demo Guide](https://github.com/zitouni/flexric/blob/master/DEMO_DIST.md) which provides detailed instructions for running the complete end-to-end setup.
 
 
 ## Installation Guides
