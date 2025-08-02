@@ -1,0 +1,12 @@
+[submodule "DqnRic"]
+	path = DqnRic
+	url = https://github.com/zitouni/DqnRic.git
+[submodule "oai-cn5g-fed"]
+	path = oai-cn5g-fed
+	url = https://github.com/zitouni/oai-cn5g-fed.git
+[submodule "openairinterface5g"]
+	path = openairinterface5g
+	url = https://github.com/zitouni/openairinterface5g.git
+[submodule "flexric_scale"]
+	path = flexric_scale
+	url = https://github.com/zitouni/flexric_scale.git
