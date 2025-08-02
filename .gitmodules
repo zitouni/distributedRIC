@@ -7,6 +7,7 @@
 [submodule "openairinterface5g"]
 	path = openairinterface5g
 	url = https://github.com/zitouni/openairinterface5g.git
-[submodule "flexric_scale"]
-	path = flexric_scale
-	url = https://github.com/zitouni/flexric_scale.git
+[submodule "flexric"]
+	path = flexric
+	url = https://github.com/zitouni/flexric.git
+
