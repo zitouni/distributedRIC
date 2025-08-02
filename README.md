@@ -19,14 +19,13 @@ A distributed near-RT RIC implementation featuring OpenAirInterface5G integratio
 - **OpenAirInterface5G**: 5G RAN implementation with E2 agent
 - **FlexRIC**: Near-real-time RIC platform
 - **OAI CN5G**: 5G Core Network functions
-- **DQN RIC**: AI-driven resource optimization
+- **DQN RIC**: AI-driven Load balancer optimization
 
 ### Key Directories
 - `openairinterface5g/`: 5G RAN with E2 interface
-- `flexric_scale/`: Scalable RIC implementation
+- `flexric_scale/`: Distributed near-RT RIC implementation
 - `oai-cn5g-fed/`: 5G Core Network federation
-- `DqnRic/`: Deep Q-Network based RIC optimization
-- `xapp_analytics/`: Analytics and monitoring xApps
+- `DqnRic/`: Deep Q-Network based optimization of indication messages routing 
 
 ## Quick Start
 
@@ -46,10 +45,14 @@ For detailed installation instructions, see the [Installation Guides](#installat
 
 ### Build the extended FlexRIC 
 
+The flexric is part of the OAI RAN project (openairinterface5g) at "/openairinterface5g/openair2/E2AP". 
 ```bash
-cd flexric_scale
-make
-./build/examples/ric/nearRT-RIC
+git checkcout scale-ric
+cd flexric
+mkdir build
+cmake .. 
+make -j$(nproc)
+sudo make install
 ```
 For detailed installation instructions, see the [Installation Guides](#installation-guides) section below.
 ### Deploy 5G Core Network
@@ -70,22 +73,19 @@ For detailed installation instructions, see the [Installation Guides](#installat
 ## Installation Guides
 
 ### OpenAirInterface5G
-- [Build Guide](openairinterface5g/doc/BUILD.md)
-- [Run Guide](openairinterface5g/doc/RUNMODEM.md)
-- [Features](openairinterface5g/doc/FEATURE_SET.md)
-- [E2AP Integration](openairinterface5g/openair2/E2AP/README.md)
+- [Build Guide](https://github.com/zitouni/openairinterface5g/blob/main/doc/BUILD.md)
+- [Run Guide](https://github.com/zitouni/openairinterface5g/blob/main/doc/RUNMODEM.md)
+- [Features](https://github.com/zitouni/openairinterface5g/blob/main/doc/FEATURE_SET.md)
+- [E2AP Integration](https://github.com/zitouni/openairinterface5g/blob/main/openair2/E2AP/README.md)
 
 ### FlexRIC
-- [Main Installation Guide](flexric_scale/README.md)
-- [Demo Guide](flexric_scale/DEMO.md)
-- [Scale Demo](flexric_scale/DEMO_Scale.md)
-- [Docker Deployment](flexric_scale/test/docker/README.md)
+- [Main Installation Guide](https://github.com/zitouni/flexric/blob/master/README.md)
 
 ### OAI 5G Core Network
-- [Main Guide](oai-cn5g-fed/README.md)
-- [Home Deployment](oai-cn5g-fed/docs/DEPLOY_HOME.md)
-- [Prerequisites](oai-cn5g-fed/docs/DEPLOY_PRE_REQUISITES.md)
-- [Debug Guide](oai-cn5g-fed/docs/DEBUG_5G_CORE.md)
+- [Main Guide](https://github.com/zitouni/oai-cn5g-fed/blob/master/README.md)
+- [Home Deployment](https://github.com/zitouni/oai-cn5g-fed/blob/master/docs/DEPLOY_HOME.md)
+- [Prerequisites](https://github.com/zitouni/oai-cn5g-fed/blob/master/docs/DEPLOY_PRE_REQUISITES.md)
+- [Debug Guide](https://github.com/zitouni/oai-cn5g-fed/blob/master/docs/DEBUG_5G_CORE.md)
 
 ## Documentation
 
