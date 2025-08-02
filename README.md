@@ -2,7 +2,7 @@
 
 ## Architecture
 
-![Architecture Deployment](ArchDeployment_3.pdf)
+![Architecture Deployment](ArchDeployment.png)
 
 ## Build with E2
 
