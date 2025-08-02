@@ -7,7 +7,7 @@
 [submodule "openairinterface5g"]
 	path = openairinterface5g
 	url = https://github.com/zitouni/openairinterface5g.git
-[submodule "modules/flexric"]
-	path = modules/flexric
+[submodule "flexric"]
+	path = flexric
 	url = https://github.com/zitouni/flexric.git
 
