@@ -1,6 +1,8 @@
-# Distributed near-Real Time Radio Intelligence Controller (near-RT RIC)
+# Distributed near-Real Time RAN Intelligence Controller (near-RT RIC)
 
-A distributed near-RT RIC implementation featuring OpenAirInterface5G integration with multiple E2 interfaces support, Improved FlexRIC framework, and AI-driven network optimization capabilities. The 5G Core network is shared within the same repository to show all the software modules to run the end-to-end setup. 
+A comprehensive distributed near-Real Time Radio Intelligence Controller implementation featuring seamless OpenAirInterface5G integration with multi-E2 interface support, an enhanced FlexRIC framework, and sophisticated AI-driven network optimisation capabilities. This repository encompasses a complete 5G Core network, providing all requisite software modules for comprehensive end-to-end system deployment and evaluation.
+
+This research and development work has been conducted at the [6G Innovation Centre](https://www.surrey.ac.uk/institute-communication-systems/5g-6g-innovation-centre), University of Surrey, as part of ongoing investigations into next-generation wireless network intelligence and automation.
 
 ## Architecture
 
@@ -23,7 +25,7 @@ A distributed near-RT RIC implementation featuring OpenAirInterface5G integratio
 
 ### Key Directories
 - `openairinterface5g/`: 5G RAN with E2 interface
-- `flexric_scale/`: Distributed near-RT RIC implementation
+- `flexric/`: Distributed near-RT RIC implementation
 - `oai-cn5g-fed/`: 5G Core Network federation
 - `DqnRic/`: Deep Q-Network based optimization of indication messages routing 
 
@@ -34,7 +36,7 @@ A distributed near-RT RIC implementation featuring OpenAirInterface5G integratio
 - CMake 3.15+
 - GCC 9+
 
-### Quick build of OpenAirInterface5G with E2
+### Build of OpenAirInterface5G with E2
 
 ```bash
 cd openairinterface5g/cmake_targets
@@ -66,9 +68,14 @@ For detailed installation instructions, see the [Installation Guides](#installat
 
 ## Configuration
 
-- **RIC Configuration**: `flexric_scale/flexric.conf`
-- **E2 Agent**: Built into OAI gNB
+- **RIC Configuration**: `flexric/demo-scale`
+- **OAI Configuration**: `openairinterface5g/ci-scripts/CONF_25-33`
 - **Core Network**: `oai-cn5g-fed/docker-compose/`
+
+## Run Demo 
+
+For a comprehensive demonstration of the distributed RIC system, please refer to the [Scale Demo Guide](https://github.com/zitouni/flexric/blob/fbabe9cff920f4949aa456d05b4d6a5d196e028b/DEMO_Scale.md) which provides detailed instructions for running the complete end-to-end setup.
+
 
 ## Installation Guides
 
