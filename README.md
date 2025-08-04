@@ -4,6 +4,8 @@ A comprehensive distributed near-Real Time Radio Intelligence Controller impleme
 
 This research and development work has been conducted at the [6G Innovation Centre](https://www.surrey.ac.uk/institute-communication-systems/5g-6g-innovation-centre), University of Surrey, as part of ongoing investigations into next-generation wireless network intelligence and automation.
 
+**📺 Demo Video**: Watch the [distributed near-RT RIC demonstration](https://youtu.be/GGoTcKb8_30) showing the complete system deployment and real-time measurements visualised on the Grafana dashboard.
+
 ## Architecture
 
 ![Architecture Deployment](ArchDeployment.png)
