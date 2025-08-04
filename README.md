@@ -1,6 +1,6 @@
 # Distributed near-Real Time RAN Intelligence Controller (near-RT RIC)
 
-A comprehensive distributed near-Real Time Radio Intelligence Controller implementation featuring seamless OpenAirInterface5G integration with multi-E2 interface support, an enhanced FlexRIC framework, and sophisticated AI-driven network optimisation capabilities. This repository encompasses a complete 5G Core network, providing all requisite software modules for comprehensive end-to-end system deployment and evaluation.
+A comprehensive distributed near-Real Time Radio Access Network (RAN) Intelligence Controller implementation featuring seamless OpenAirInterface5G integration with multi-E2 interface support, an enhanced FlexRIC framework, and sophisticated AI-driven network optimisation capabilities. This repository encompasses a complete 5G Core network, providing all requisite software modules for comprehensive end-to-end system deployment and evaluation.
 
 This research and development work has been conducted at the [6G Innovation Centre](https://www.surrey.ac.uk/institute-communication-systems/5g-6g-innovation-centre), University of Surrey, as part of ongoing investigations into next-generation wireless network intelligence and automation.
 
