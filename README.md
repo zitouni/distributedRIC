@@ -68,7 +68,7 @@ For detailed installation instructions, see the [Installation Guides](#installat
 
 ## Configuration
 
-- **RIC Configuration**: `flexric/demo-scale`
+- **RIC Configuration**: `flexric/demo-dist`
 - **OAI Configuration**: `openairinterface5g/ci-scripts/CONF_25-33`
 - **Core Network**: `oai-cn5g-fed/docker-compose/`
 
