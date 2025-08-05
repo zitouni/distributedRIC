@@ -102,6 +102,16 @@ For a comprehensive demonstration of the distributed RIC system, please refer to
 
 This project combines multiple open-source components with their respective licenses. See individual component directories for specific license information.
 
+## Acknowledgments
+
+<p align="center">
+  <a href="https://www.surrey.ac.uk/institute-communication-systems/5g-6g-innovation-centre">
+    <img src="https://github.com/zitouni/distributedRIC/blob/main/university-of-surrey-logo.png" alt="University of Surrey" width="200">
+  </a>
+</p>
+
+This research and development work was supported by the [University of Surrey](https://www.surrey.ac.uk/) and the [5G & 6G Innovation Centre](https://www.surrey.ac.uk/institute-communication-systems/5g-6g-innovation-centre) within the TUDOR and HiperRAN projects.
+
 ---
 
 © 2025 Rafik ZITOUNI
