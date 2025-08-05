@@ -23,7 +23,7 @@ This research and development work has been conducted at the [6G Innovation Cent
 - **OpenAirInterface5G**: 5G RAN implementation with E2 agent
 - **FlexRIC**: Near-real-time RIC platform
 - **OAI CN5G**: 5G Core Network functions
-- **DQN RIC**: AI-driven Load balancer optimization
+- **[DQN RIC](https://github.com/zitouni/DqnRic)**: AI-driven Load balancer optimization ([README](https://github.com/zitouni/DqnRic/blob/main/README.md))
 
 ### Key Directories
 - `openairinterface5g/`: 5G RAN with E2 interface
