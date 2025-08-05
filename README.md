@@ -106,7 +106,7 @@ This project combines multiple open-source components with their respective lice
 
 <p align="center">
   <a href="https://www.surrey.ac.uk/institute-communication-systems/5g-6g-innovation-centre">
-    <img src="https://github.com/zitouni/distributedRIC/blob/main/university-of-surrey-logo.png" alt="University of Surrey" width="200">
+    <img src="https://github.com/zitouni/distributedRIC/blob/main/ICS_university-surrey.jpg" alt="University of Surrey" width="200">
   </a>
 </p>
 
